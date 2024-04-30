@@ -1,0 +1,10 @@
+@import "./transition.css";
+@import "./reset.css";
+
+@unocss;
+
+html,
+body,
+#app {
+	height: 100%;
+}
