@@ -20,11 +20,11 @@ const navItems: NavItem[] = [
 		links: [
 			{
 				label: 'About 1',
-				link: '/dashboard/ChangePassword',
+				link: '/dashboard/about',
 			},
 			{
 				label: 'About 2',
-				link: '/dashboard/ChangePassword',
+				link: '/dashboard/about',
 			},
 		],
 	},

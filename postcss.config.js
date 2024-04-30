@@ -10,8 +10,8 @@ module.exports = {
 				'mantine-breakpoint-xl': '88em',
 			},
 		}),
-		// require('@unocss/postcss').default({
-		// 	configOrPath: './unocss.config.mjs',
-		// }),
+		require('@unocss/postcss').default({
+			configOrPath: './unocss.config.mjs',
+		}),
 	],
 };

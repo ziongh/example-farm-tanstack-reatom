@@ -78,7 +78,7 @@ const TodoItem = memo(({ text, completed, index, ctx }) => {
 	);
 }, areEqual);
 
-export function ChangePassword() {
+export function ToDoList() {
 	const inputRef = useRef<HTMLInputElement>(null);
 	const addTodo = useAction(addTodoAction);
 	return (
