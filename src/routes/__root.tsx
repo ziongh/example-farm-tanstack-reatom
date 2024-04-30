@@ -41,9 +41,10 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 		</div>
 	),
 	notFoundComponent: () => <div>Dashboard Not Found</div>,
+	component: DefaultRoute,
 });
 
-const DefaultRoute = () => {
+function DefaultRoute(){
 	console.log('DefaultRoute');
 	return (
 		<>
